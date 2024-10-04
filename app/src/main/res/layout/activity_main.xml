@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- TextInputLayout and TextInputEditText for API key input -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter API Key"
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/apiKeyInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="37178157-d5cc-4780-abb0-344e6bec821c"
+            android:inputType="text"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- TextView for NFC Status Display -->
+    <TextView
+        android:id="@+id/nfcStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Waiting for NFC tag..."
+        android:textSize="16sp"
+        android:padding="16dp"/>
+
+    <!-- TextView for JWT Display -->
+    <TextView
+        android:id="@+id/jwtDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JWT will display here..."
+        android:textSize="16sp"
+        android:padding="16dp"/>
+
+</LinearLayout>
