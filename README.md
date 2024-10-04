@@ -22,7 +22,7 @@ This app demonstrates how to verify a VivoKey NFC Signature from the NDEF record
 
 ## Get your own API Key
 
-The code contains a test API key, but you should be testing with your own key. Get your API from [VivoKey API](https://vivokey.com/api).
+The code contains a test API key, but you should be testing with your own key. Get your own API key from [VivoKey API](https://vivokey.com/api).
 
 ## How It Works
 
@@ -44,8 +44,7 @@ The code contains a test API key, but you should be testing with your own key. G
 
 2. Open the project in **Android Studio**.
 
-3. Add your **VivoKey API key** in the code:
-   Replace the placeholder API key with your own in the `MainActivity.kt` file.
+3. Replace the placeholder API key with your own in the `MainActivity.kt` file.
 
 4. Build and run the app on an NFC-enabled device.
 
