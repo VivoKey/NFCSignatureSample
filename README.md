@@ -20,9 +20,13 @@ This app demonstrates how to verify a VivoKey NFC Signature from the NDEF record
 - **NFC-enabled device** to interact with the VivoKey product.
 - **API key** from VivoKey. See instructions below.
 
-## Get your own API Key
+## VivoKey API Key
 
-The code contains a test API key, but you should be testing with your own key. Get your own API key from [VivoKey API](https://vivokey.com/api).
+The code contains a test API key, but you should be testing with your own key. Get your own API key from [VivoKey API](https://vivokey.com/api). 
+
+## The VivoKey Authenticity Token
+
+Upon successful validation of the signature, the VivoKey API will return a [VivoKey Authenticity JWT](https://vivokey.com/api) (json web token).
 
 ## How It Works
 
